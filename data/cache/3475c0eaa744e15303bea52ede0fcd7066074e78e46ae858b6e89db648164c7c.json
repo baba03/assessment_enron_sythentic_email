@@ -1,0 +1,1 @@
+{"text": "```json\n{\n  \"realism\": 4,\n  \"artifacts\": [\n    \"Slightly over-polished and templated tone for an internal operational notice\",\n    \"Generic greeting 'To all WINDGRID operators' despite being sent to only 2 specific recipients\"\n  ]\n}\n```", "cost": 0.000855, "model": "anthropic/claude-haiku-4.5"}

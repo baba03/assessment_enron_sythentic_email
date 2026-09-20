@@ -1,0 +1,544 @@
+{
+  "source_emails_with_named_people_in_lists": 0.45,
+  "originals": {
+    "pairwise_similarity_within": 0.6254339814186096,
+    "distinct2": 0.7651195499296765,
+    "distinct1": 0.2616636887035934,
+    "sign_ok": 0.4634146341463415,
+    "greet_ok": 0.5714285714285714
+  },
+  "hybrid_v1": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.7908163666725159,
+    "embed_cos_random_pair_mean": 0.6136017441749573,
+    "embed_top1_retrieval": 0.875,
+    "embed_top5_retrieval": 0.9583333333333334,
+    "form_discriminator_auc": 0.858298611111111,
+    "form_discriminator_auc_sd": 0.0404329655232347,
+    "sign_ok": 0.41025641025641024,
+    "greet_ok": 0.5,
+    "source_name_survivor_email_rate": 0.058333333333333334,
+    "source_name_survivors_total": 46,
+    "source_name_survivor_examples": [
+      [
+        "alan comnes"
+      ],
+      [
+        "harry collins",
+        "john cummings"
+      ],
+      [
+        "connie sutton"
+      ],
+      [
+        "rita wynne"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6159594058990479,
+    "distinct1": 0.28911875063381,
+    "distinct2": 0.8008418026896622,
+    "n_companies": 13
+  },
+  "hybrid": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.7964059114456177,
+    "embed_cos_random_pair_mean": 0.6141051054000854,
+    "embed_top1_retrieval": 0.8916666666666667,
+    "embed_top5_retrieval": 0.9833333333333333,
+    "form_discriminator_auc": 0.8901736111111112,
+    "form_discriminator_auc_sd": 0.033305851663265294,
+    "sign_ok": 0.43902439024390244,
+    "greet_ok": 0.5,
+    "source_name_survivor_email_rate": 0.041666666666666664,
+    "source_name_survivors_total": 21,
+    "source_name_survivor_examples": [
+      [
+        "harry collins",
+        "john cummings"
+      ],
+      [
+        "rita wynne"
+      ],
+      [
+        "michelle cisneros",
+        "gayle muench",
+        "meredith eggleston"
+      ],
+      [
+        "melinda mccarty",
+        "karen denne",
+        "jackie gentle"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6163291335105896,
+    "distinct1": 0.2951496388028896,
+    "distinct2": 0.8073145245559039,
+    "n_companies": 13
+  },
+  "rule": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.8964730501174927,
+    "embed_cos_random_pair_mean": 0.6213172078132629,
+    "embed_top1_retrieval": 1.0,
+    "embed_top5_retrieval": 1.0,
+    "form_discriminator_auc": 0.7703819444444444,
+    "form_discriminator_auc_sd": 0.05428790296354256,
+    "sign_ok": 0.4146341463414634,
+    "greet_ok": 0.5,
+    "source_name_survivor_email_rate": 0.025,
+    "source_name_survivors_total": 3,
+    "source_name_survivor_examples": [
+      [
+        "michelle cisneros"
+      ],
+      [
+        "jackie gentle"
+      ],
+      [
+        "preparation gir"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6240747570991516,
+    "distinct1": 0.27462082912032354,
+    "distinct2": 0.778403275332651,
+    "n_companies": 13
+  },
+  "rule_v2": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.8986444473266602,
+    "embed_cos_random_pair_mean": 0.6217108964920044,
+    "embed_top1_retrieval": 1.0,
+    "embed_top5_retrieval": 1.0,
+    "form_discriminator_auc": 0.7721875,
+    "form_discriminator_auc_sd": 0.053945908765455644,
+    "sign_ok": 0.43902439024390244,
+    "greet_ok": 0.5,
+    "source_name_survivor_email_rate": 0.05,
+    "source_name_survivors_total": 22,
+    "source_name_survivor_examples": [
+      [
+        "harry collins",
+        "john cummings"
+      ],
+      [
+        "rita wynne"
+      ],
+      [
+        "michelle cisneros",
+        "gayle muench",
+        "meredith eggleston"
+      ],
+      [
+        "melinda mccarty",
+        "karen denne",
+        "jackie gentle"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6247255206108093,
+    "distinct1": 0.27369371176411594,
+    "distinct2": 0.7774845193381382,
+    "n_companies": 13
+  },
+  "llm_only": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.8281711339950562,
+    "embed_cos_random_pair_mean": 0.6071143746376038,
+    "embed_top1_retrieval": 0.925,
+    "embed_top5_retrieval": 0.9666666666666667,
+    "form_discriminator_auc": 0.965,
+    "form_discriminator_auc_sd": 0.023911387176999904,
+    "sign_ok": 0.0,
+    "greet_ok": 0.0,
+    "source_name_survivor_email_rate": 0.03333333333333333,
+    "source_name_survivors_total": 4,
+    "source_name_survivor_examples": [
+      [
+        "camie swanson-hull"
+      ],
+      [
+        "beverly beaty"
+      ],
+      [
+        "shawn calloway"
+      ],
+      [
+        "brian cherry"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6064145565032959,
+    "distinct1": 0.21625881013877338,
+    "distinct2": 0.722747876600801,
+    "n_companies": 13
+  },
+  "hybrid_llama70b": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.8039175868034363,
+    "embed_cos_random_pair_mean": 0.6127043962478638,
+    "embed_top1_retrieval": 0.925,
+    "embed_top5_retrieval": 0.9833333333333333,
+    "form_discriminator_auc": 0.8324131944444446,
+    "form_discriminator_auc_sd": 0.05079583717363583,
+    "sign_ok": 0.3170731707317073,
+    "greet_ok": 0.5,
+    "source_name_survivor_email_rate": 0.05,
+    "source_name_survivors_total": 44,
+    "source_name_survivor_examples": [
+      [
+        "harry collins",
+        "john cummings"
+      ],
+      [
+        "connie sutton"
+      ],
+      [
+        "rita wynne"
+      ],
+      [
+        "terri greenlee",
+        "edward sacks",
+        "michelle cisneros"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6175947189331055,
+    "distinct1": 0.25861598617804854,
+    "distinct2": 0.7421163923876068,
+    "n_companies": 13
+  },
+  "hybrid_qwen235b": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.8254421949386597,
+    "embed_cos_random_pair_mean": 0.6117200255393982,
+    "embed_top1_retrieval": 0.8916666666666667,
+    "embed_top5_retrieval": 0.95,
+    "form_discriminator_auc": 0.8260069444444446,
+    "form_discriminator_auc_sd": 0.040790173477380724,
+    "sign_ok": 0.5,
+    "greet_ok": 0.5,
+    "source_name_survivor_email_rate": 0.041666666666666664,
+    "source_name_survivors_total": 44,
+    "source_name_survivor_examples": [
+      [
+        "harry collins",
+        "john cummings"
+      ],
+      [
+        "connie sutton"
+      ],
+      [
+        "terri greenlee",
+        "edward sacks",
+        "michelle cisneros"
+      ],
+      [
+        "melinda mccarty",
+        "karen denne",
+        "jackie gentle"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6099776029586792,
+    "distinct1": 0.31968348170128585,
+    "distinct2": 0.8112112112112112,
+    "n_companies": 13
+  },
+  "hybrid_gemini_flash": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.8209097981452942,
+    "embed_cos_random_pair_mean": 0.6122702956199646,
+    "embed_top1_retrieval": 0.925,
+    "embed_top5_retrieval": 0.9583333333333334,
+    "form_discriminator_auc": 0.8661631944444445,
+    "form_discriminator_auc_sd": 0.03931158623861991,
+    "sign_ok": 0.37142857142857144,
+    "greet_ok": 0.5,
+    "source_name_survivor_email_rate": 0.058333333333333334,
+    "source_name_survivors_total": 46,
+    "source_name_survivor_examples": [
+      [
+        "alan comnes"
+      ],
+      [
+        "harry collins",
+        "john cummings"
+      ],
+      [
+        "connie sutton"
+      ],
+      [
+        "rita wynne"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6105510592460632,
+    "distinct1": 0.2931947251901049,
+    "distinct2": 0.786542019670854,
+    "n_companies": 13
+  },
+  "hybrid_haiku45": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.8172566890716553,
+    "embed_cos_random_pair_mean": 0.6122828722000122,
+    "embed_top1_retrieval": 0.9,
+    "embed_top5_retrieval": 0.975,
+    "form_discriminator_auc": 0.8183159722222222,
+    "form_discriminator_auc_sd": 0.04569906482571843,
+    "sign_ok": 0.2972972972972973,
+    "greet_ok": 0.5,
+    "source_name_survivor_email_rate": 0.058333333333333334,
+    "source_name_survivors_total": 46,
+    "source_name_survivor_examples": [
+      [
+        "harry collins",
+        "john cummings"
+      ],
+      [
+        "connie sutton"
+      ],
+      [
+        "rita wynne"
+      ],
+      [
+        "terri greenlee",
+        "edward sacks",
+        "michelle cisneros"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6111404895782471,
+    "distinct1": 0.29784072900158476,
+    "distinct2": 0.7858861267040899,
+    "n_companies": 13
+  },
+  "hybrid_v1_styled": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.7914745807647705,
+    "embed_cos_random_pair_mean": 0.6141312718391418,
+    "embed_top1_retrieval": 0.875,
+    "embed_top5_retrieval": 0.9583333333333334,
+    "form_discriminator_auc": 0.676284722222222,
+    "form_discriminator_auc_sd": 0.0748722629423063,
+    "sign_ok": 0.41025641025641024,
+    "greet_ok": 0.5,
+    "source_name_survivor_email_rate": 0.058333333333333334,
+    "source_name_survivors_total": 46,
+    "source_name_survivor_examples": [
+      [
+        "alan comnes"
+      ],
+      [
+        "harry collins",
+        "john cummings"
+      ],
+      [
+        "connie sutton"
+      ],
+      [
+        "rita wynne"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6168144941329956,
+    "distinct1": 0.2923863055697496,
+    "distinct2": 0.8039317123642007,
+    "n_companies": 13
+  },
+  "hybrid_styled": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.7969353795051575,
+    "embed_cos_random_pair_mean": 0.614654541015625,
+    "embed_top1_retrieval": 0.9,
+    "embed_top5_retrieval": 0.9833333333333333,
+    "form_discriminator_auc": 0.6916319444444445,
+    "form_discriminator_auc_sd": 0.07305120689687135,
+    "sign_ok": 0.43902439024390244,
+    "greet_ok": 0.5,
+    "source_name_survivor_email_rate": 0.041666666666666664,
+    "source_name_survivors_total": 21,
+    "source_name_survivor_examples": [
+      [
+        "harry collins",
+        "john cummings"
+      ],
+      [
+        "rita wynne"
+      ],
+      [
+        "michelle cisneros",
+        "gayle muench",
+        "meredith eggleston"
+      ],
+      [
+        "melinda mccarty",
+        "karen denne",
+        "jackie gentle"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6169443130493164,
+    "distinct1": 0.3017900136082906,
+    "distinct2": 0.816389271705714,
+    "n_companies": 13
+  },
+  "llm_only_styled": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.829224169254303,
+    "embed_cos_random_pair_mean": 0.6077917218208313,
+    "embed_top1_retrieval": 0.925,
+    "embed_top5_retrieval": 0.9666666666666667,
+    "form_discriminator_auc": 0.956423611111111,
+    "form_discriminator_auc_sd": 0.025762976361497658,
+    "sign_ok": 0.0,
+    "greet_ok": 0.0,
+    "source_name_survivor_email_rate": 0.03333333333333333,
+    "source_name_survivors_total": 4,
+    "source_name_survivor_examples": [
+      [
+        "camie swanson-hull"
+      ],
+      [
+        "beverly beaty"
+      ],
+      [
+        "shawn calloway"
+      ],
+      [
+        "brian cherry"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6072157621383667,
+    "distinct1": 0.22077004592016955,
+    "distinct2": 0.7258522727272727,
+    "n_companies": 13
+  },
+  "hybrid_llama70b_styled": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.8041588068008423,
+    "embed_cos_random_pair_mean": 0.612970232963562,
+    "embed_top1_retrieval": 0.925,
+    "embed_top5_retrieval": 0.9833333333333333,
+    "form_discriminator_auc": 0.7125520833333333,
+    "form_discriminator_auc_sd": 0.07552642260606897,
+    "sign_ok": 0.3170731707317073,
+    "greet_ok": 0.5,
+    "source_name_survivor_email_rate": 0.05,
+    "source_name_survivors_total": 44,
+    "source_name_survivor_examples": [
+      [
+        "harry collins",
+        "john cummings"
+      ],
+      [
+        "connie sutton"
+      ],
+      [
+        "rita wynne"
+      ],
+      [
+        "terri greenlee",
+        "edward sacks",
+        "michelle cisneros"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6180734038352966,
+    "distinct1": 0.25861598617804854,
+    "distinct2": 0.7421163923876068,
+    "n_companies": 13
+  },
+  "hybrid_qwen235b_styled": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.8257315754890442,
+    "embed_cos_random_pair_mean": 0.6119409799575806,
+    "embed_top1_retrieval": 0.9,
+    "embed_top5_retrieval": 0.95,
+    "form_discriminator_auc": 0.6378819444444445,
+    "form_discriminator_auc_sd": 0.07320881454183213,
+    "sign_ok": 0.5,
+    "greet_ok": 0.5,
+    "source_name_survivor_email_rate": 0.041666666666666664,
+    "source_name_survivors_total": 44,
+    "source_name_survivor_examples": [
+      [
+        "harry collins",
+        "john cummings"
+      ],
+      [
+        "connie sutton"
+      ],
+      [
+        "terri greenlee",
+        "edward sacks",
+        "michelle cisneros"
+      ],
+      [
+        "melinda mccarty",
+        "karen denne",
+        "jackie gentle"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6103134155273438,
+    "distinct1": 0.3218573271157853,
+    "distinct2": 0.8119289085249523,
+    "n_companies": 13
+  },
+  "hybrid_gemini_flash_styled": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.821179986000061,
+    "embed_cos_random_pair_mean": 0.6124364137649536,
+    "embed_top1_retrieval": 0.925,
+    "embed_top5_retrieval": 0.9583333333333334,
+    "form_discriminator_auc": 0.6669270833333333,
+    "form_discriminator_auc_sd": 0.07870641101178297,
+    "sign_ok": 0.37142857142857144,
+    "greet_ok": 0.5,
+    "source_name_survivor_email_rate": 0.058333333333333334,
+    "source_name_survivors_total": 46,
+    "source_name_survivor_examples": [
+      [
+        "alan comnes"
+      ],
+      [
+        "harry collins",
+        "john cummings"
+      ],
+      [
+        "connie sutton"
+      ],
+      [
+        "rita wynne"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6108542084693909,
+    "distinct1": 0.2931947251901049,
+    "distinct2": 0.786542019670854,
+    "n_companies": 13
+  },
+  "hybrid_haiku45_styled": {
+    "n": 120,
+    "embed_cos_pair_mean": 0.8175821304321289,
+    "embed_cos_random_pair_mean": 0.6126448512077332,
+    "embed_top1_retrieval": 0.9083333333333333,
+    "embed_top5_retrieval": 0.975,
+    "form_discriminator_auc": 0.6518229166666667,
+    "form_discriminator_auc_sd": 0.07253127526581864,
+    "sign_ok": 0.2972972972972973,
+    "greet_ok": 0.5,
+    "source_name_survivor_email_rate": 0.058333333333333334,
+    "source_name_survivors_total": 46,
+    "source_name_survivor_examples": [
+      [
+        "harry collins",
+        "john cummings"
+      ],
+      [
+        "connie sutton"
+      ],
+      [
+        "rita wynne"
+      ],
+      [
+        "terri greenlee",
+        "edward sacks",
+        "michelle cisneros"
+      ]
+    ],
+    "pairwise_similarity_within": 0.6118148565292358,
+    "distinct1": 0.29784072900158476,
+    "distinct2": 0.7858861267040899,
+    "n_companies": 13
+  }
+}

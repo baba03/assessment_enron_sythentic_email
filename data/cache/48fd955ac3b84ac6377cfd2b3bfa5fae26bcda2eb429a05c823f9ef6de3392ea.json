@@ -1,0 +1,1 @@
+{"text": "```json\n{\n  \"real\": \"A\",\n  \"confidence\": 0.85,\n  \"reason\": \"Email A has authentic Enron domain headers and natural formatting variations (line breaks), while Email B's Message-ID format and perfect line alignment suggest synthetic generation from a template.\"\n}\n```", "cost": 0.000924, "model": "anthropic/claude-haiku-4.5"}

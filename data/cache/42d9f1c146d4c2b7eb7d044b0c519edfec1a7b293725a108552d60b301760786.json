@@ -1,0 +1,1 @@
+{"text": "```json\n{\n  \"realism\": 4,\n  \"artifacts\": [\n    \"Unusually early send time (6:20 AM) for a same-day meeting notification at 3pm\",\n    \"Minimal body content with no greeting, sign-off, or sender identification\u2014atypical for internal meeting notices\"\n  ]\n}\n```", "cost": 0.000857, "model": "anthropic/claude-haiku-4.5"}

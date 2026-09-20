@@ -1,0 +1,62 @@
+{
+  "n_emails": 517401,
+  "n_mailboxes": 150,
+  "folder_type_top15": {
+    "all_documents": 128103,
+    "discussion_threads": 58609,
+    "sent": 57653,
+    "deleted_items": 51356,
+    "inbox": 44859,
+    "sent_items": 37921,
+    "notes_inbox": 36665,
+    "_sent_mail": 30109,
+    "calendar": 6133,
+    "archiving": 4477,
+    "_americas": 4021,
+    "personal": 2577,
+    "attachments": 2026,
+    "meetings": 1872,
+    "c": 1656
+  },
+  "body_words_quantiles": {
+    "0.05": 0.0,
+    "0.25": 13.0,
+    "0.5": 45.0,
+    "0.75": 126.0,
+    "0.95": 515.0,
+    "0.99": 1713.0
+  },
+  "body_words_mean": 156.18427100063587,
+  "pct_empty_body": 0.08614208321978505,
+  "pct_with_forward_or_quote": 0.3612691123519282,
+  "pct_reply": 0.2961281481868029,
+  "pct_forward": 0.06916878784540424,
+  "pct_empty_subject": 0.03708342272241453,
+  "n_to_quantiles": {
+    "0.05": 1.0,
+    "0.25": 1.0,
+    "0.5": 1.0,
+    "0.75": 2.0,
+    "0.95": 24.0,
+    "0.99": 107.0
+  },
+  "pct_multi_recipient": 0.27304933697460965,
+  "pct_with_cc": 0.24716032632329663,
+  "pct_mentions_attachment": 0.12780415963633623,
+  "pct_greeting": 0.05430797389259008,
+  "pct_signoff": 0.18361580282991335,
+  "pct_mentions_enron": 0.48390513354245546,
+  "pct_external_sender": 0.17320801467333846,
+  "pct_with_phone": 0.23594658688328782,
+  "pct_with_money": 0.1276476079481872,
+  "pct_with_url": 0.15062205136828108,
+  "pct_with_embedded_email_addr": 0.3081884263849509,
+  "year_counts": {
+    "1997": 437,
+    "1998": 177,
+    "1999": 11144,
+    "2000": 196100,
+    "2001": 272964,
+    "2002": 35974
+  }
+}

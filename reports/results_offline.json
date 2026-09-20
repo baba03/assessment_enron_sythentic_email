@@ -1,0 +1,965 @@
+{
+  "hybrid_v1": {
+    "privacy": {
+      "n": 120,
+      "any_leak_rate": 0.06666666666666667,
+      "verifier_hard_leak_rate": 0.0,
+      "global_leak_rate": 0.0,
+      "enron_person_fullname_rate": 0.06666666666666667,
+      "forced_redaction_rate": 0.008333333333333333,
+      "placeholder_left_rate": 0.0,
+      "verbatim_8gram_overlap_mean": 0.10444130601898861,
+      "verbatim_8gram_overlap_p95": 0.415527950310559,
+      "emails_with_>10%_verbatim": 0.3416666666666667
+    },
+    "fidelity": {
+      "body_words_ratio_median": 1.0,
+      "body_words_ratio_iqr": [
+        0.9257177033492823,
+        1.0450745366639806
+      ],
+      "body_words_spearman": 0.9924105199326141,
+      "body_words_ks_stat": 0.041666666666666664,
+      "body_words_ks_p": 0.9999542705402878,
+      "has_greeting_agree": 0.9833333333333333,
+      "has_greeting_orig_rate": 0.08333333333333333,
+      "has_greeting_syn_rate": 0.06666666666666667,
+      "has_signoff_agree": 0.975,
+      "has_signoff_orig_rate": 0.25,
+      "has_signoff_syn_rate": 0.24166666666666667,
+      "has_trailer_agree": 1.0,
+      "has_trailer_orig_rate": 0.5,
+      "has_trailer_syn_rate": 0.5,
+      "is_re_agree": 1.0,
+      "is_re_orig_rate": 0.4083333333333333,
+      "is_re_syn_rate": 0.4083333333333333,
+      "is_fw_agree": 1.0,
+      "is_fw_orig_rate": 0.075,
+      "is_fw_syn_rate": 0.075,
+      "all_lower_agree": 1.0,
+      "all_lower_orig_rate": 0.0,
+      "all_lower_syn_rate": 0.0,
+      "has_url_agree": 1.0,
+      "has_url_orig_rate": 0.05,
+      "has_url_syn_rate": 0.05,
+      "mentions_attachment_agree": 1.0,
+      "mentions_attachment_orig_rate": 0.09166666666666666,
+      "mentions_attachment_syn_rate": 0.09166666666666666,
+      "n_paragraphs_spearman": 0.9555139658359897,
+      "n_lines_spearman": 0.9812665938384832,
+      "n_to_exact_agree": 0.8916666666666667,
+      "distinct1_syn": 0.28911875063381,
+      "distinct2_syn": 0.8008418026896622,
+      "distinct1_orig": 0.2616636887035934,
+      "distinct2_orig": 0.7651195499296765
+    },
+    "realism": {
+      "realism_syn_mean": null,
+      "realism_real_mean": null,
+      "judge_detects_synthetic_acc": null,
+      "n_pairs": 0,
+      "top_artifacts": []
+    },
+    "utility": {
+      "category": {
+        "agreement": null,
+        "kappa": null
+      },
+      "intent": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sentiment": {
+        "agreement": null,
+        "kappa": null
+      },
+      "privileged_likely": {
+        "agreement": null,
+        "kappa": null
+      },
+      "action_required": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sensitive": {
+        "agreement": null,
+        "kappa": null
+      }
+    },
+    "meta": {
+      "mean_attempts": 1.1416666666666666,
+      "trailer_truncated": 0.05,
+      "companies": {
+        "tasman": 23,
+        "lumiere": 18,
+        "halcyon": 16,
+        "agriindia": 13,
+        "cedarpoint": 10,
+        "nordwind": 7,
+        "meridian": 7,
+        "maple": 7,
+        "lakeshore": 5,
+        "kestrel": 5,
+        "brasilog": 4,
+        "solmar": 3,
+        "orion": 2
+      }
+    }
+  },
+  "hybrid": {
+    "privacy": {
+      "n": 120,
+      "any_leak_rate": 0.03333333333333333,
+      "verifier_hard_leak_rate": 0.0,
+      "global_leak_rate": 0.0,
+      "enron_person_fullname_rate": 0.03333333333333333,
+      "forced_redaction_rate": 0.058333333333333334,
+      "placeholder_left_rate": 0.0,
+      "verbatim_8gram_overlap_mean": 0.031233838916299002,
+      "verbatim_8gram_overlap_p95": 0.15599793241584275,
+      "emails_with_>10%_verbatim": 0.09166666666666666
+    },
+    "fidelity": {
+      "body_words_ratio_median": 0.9718253968253968,
+      "body_words_ratio_iqr": [
+        0.9138328912466844,
+        1.02996953541508
+      ],
+      "body_words_spearman": 0.990123546863668,
+      "body_words_ks_stat": 0.058333333333333334,
+      "body_words_ks_p": 0.9874700030874857,
+      "has_greeting_agree": 0.9916666666666667,
+      "has_greeting_orig_rate": 0.08333333333333333,
+      "has_greeting_syn_rate": 0.075,
+      "has_signoff_agree": 0.9833333333333333,
+      "has_signoff_orig_rate": 0.25,
+      "has_signoff_syn_rate": 0.25,
+      "has_trailer_agree": 1.0,
+      "has_trailer_orig_rate": 0.5,
+      "has_trailer_syn_rate": 0.5,
+      "is_re_agree": 1.0,
+      "is_re_orig_rate": 0.4083333333333333,
+      "is_re_syn_rate": 0.4083333333333333,
+      "is_fw_agree": 1.0,
+      "is_fw_orig_rate": 0.075,
+      "is_fw_syn_rate": 0.075,
+      "all_lower_agree": 1.0,
+      "all_lower_orig_rate": 0.0,
+      "all_lower_syn_rate": 0.0,
+      "has_url_agree": 0.9916666666666667,
+      "has_url_orig_rate": 0.05,
+      "has_url_syn_rate": 0.041666666666666664,
+      "mentions_attachment_agree": 0.9916666666666667,
+      "mentions_attachment_orig_rate": 0.09166666666666666,
+      "mentions_attachment_syn_rate": 0.1,
+      "n_paragraphs_spearman": 0.95831142710149,
+      "n_lines_spearman": 0.9849472816199589,
+      "n_to_exact_agree": 0.8916666666666667,
+      "distinct1_syn": 0.2951496388028896,
+      "distinct2_syn": 0.8073145245559039,
+      "distinct1_orig": 0.2616636887035934,
+      "distinct2_orig": 0.7651195499296765
+    },
+    "realism": {
+      "realism_syn_mean": null,
+      "realism_real_mean": null,
+      "judge_detects_synthetic_acc": null,
+      "n_pairs": 0,
+      "top_artifacts": []
+    },
+    "utility": {
+      "category": {
+        "agreement": null,
+        "kappa": null
+      },
+      "intent": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sentiment": {
+        "agreement": null,
+        "kappa": null
+      },
+      "privileged_likely": {
+        "agreement": null,
+        "kappa": null
+      },
+      "action_required": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sensitive": {
+        "agreement": null,
+        "kappa": null
+      }
+    },
+    "meta": {
+      "mean_attempts": 1.2916666666666667,
+      "trailer_truncated": 0.05,
+      "companies": {
+        "tasman": 23,
+        "lumiere": 18,
+        "halcyon": 16,
+        "agriindia": 13,
+        "cedarpoint": 10,
+        "nordwind": 7,
+        "meridian": 7,
+        "maple": 7,
+        "lakeshore": 5,
+        "kestrel": 5,
+        "brasilog": 4,
+        "solmar": 3,
+        "orion": 2
+      }
+    }
+  },
+  "rule_v2": {
+    "privacy": {
+      "n": 120,
+      "any_leak_rate": 0.125,
+      "verifier_hard_leak_rate": 0.0,
+      "global_leak_rate": 0.125,
+      "enron_person_fullname_rate": 0.008333333333333333,
+      "forced_redaction_rate": 0.18333333333333332,
+      "placeholder_left_rate": 0.0,
+      "verbatim_8gram_overlap_mean": 0.530114941353156,
+      "verbatim_8gram_overlap_p95": 0.9729532163742689,
+      "emails_with_>10%_verbatim": 0.9416666666666667
+    },
+    "fidelity": {
+      "body_words_ratio_median": 1.0,
+      "body_words_ratio_iqr": [
+        1.0,
+        1.0206452646760322
+      ],
+      "body_words_spearman": 0.9979281180636916,
+      "body_words_ks_stat": 0.03333333333333333,
+      "body_words_ks_p": 0.9999999456410607,
+      "has_greeting_agree": 0.9916666666666667,
+      "has_greeting_orig_rate": 0.08333333333333333,
+      "has_greeting_syn_rate": 0.075,
+      "has_signoff_agree": 1.0,
+      "has_signoff_orig_rate": 0.25,
+      "has_signoff_syn_rate": 0.25,
+      "has_trailer_agree": 1.0,
+      "has_trailer_orig_rate": 0.5,
+      "has_trailer_syn_rate": 0.5,
+      "is_re_agree": 1.0,
+      "is_re_orig_rate": 0.4083333333333333,
+      "is_re_syn_rate": 0.4083333333333333,
+      "is_fw_agree": 1.0,
+      "is_fw_orig_rate": 0.075,
+      "is_fw_syn_rate": 0.075,
+      "all_lower_agree": 1.0,
+      "all_lower_orig_rate": 0.0,
+      "all_lower_syn_rate": 0.0,
+      "has_url_agree": 1.0,
+      "has_url_orig_rate": 0.05,
+      "has_url_syn_rate": 0.05,
+      "mentions_attachment_agree": 1.0,
+      "mentions_attachment_orig_rate": 0.09166666666666666,
+      "mentions_attachment_syn_rate": 0.09166666666666666,
+      "n_paragraphs_spearman": 0.9999999999999998,
+      "n_lines_spearman": 0.9999999999999998,
+      "n_to_exact_agree": 0.8916666666666667,
+      "distinct1_syn": 0.27369371176411594,
+      "distinct2_syn": 0.7774845193381382,
+      "distinct1_orig": 0.2616636887035934,
+      "distinct2_orig": 0.7651195499296765
+    },
+    "realism": {
+      "realism_syn_mean": null,
+      "realism_real_mean": null,
+      "judge_detects_synthetic_acc": null,
+      "n_pairs": 0,
+      "top_artifacts": []
+    },
+    "utility": {
+      "category": {
+        "agreement": null,
+        "kappa": null
+      },
+      "intent": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sentiment": {
+        "agreement": null,
+        "kappa": null
+      },
+      "privileged_likely": {
+        "agreement": null,
+        "kappa": null
+      },
+      "action_required": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sensitive": {
+        "agreement": null,
+        "kappa": null
+      }
+    },
+    "meta": {
+      "mean_attempts": 0.0,
+      "trailer_truncated": 0.05,
+      "companies": {
+        "tasman": 23,
+        "lumiere": 18,
+        "halcyon": 16,
+        "agriindia": 13,
+        "cedarpoint": 10,
+        "nordwind": 7,
+        "meridian": 7,
+        "maple": 7,
+        "lakeshore": 5,
+        "kestrel": 5,
+        "brasilog": 4,
+        "solmar": 3,
+        "orion": 2
+      }
+    }
+  },
+  "rule": {
+    "privacy": {
+      "n": 120,
+      "any_leak_rate": 0.11666666666666667,
+      "verifier_hard_leak_rate": 0.0,
+      "global_leak_rate": 0.11666666666666667,
+      "enron_person_fullname_rate": 0.0,
+      "forced_redaction_rate": 0.10833333333333334,
+      "placeholder_left_rate": 0.0,
+      "verbatim_8gram_overlap_mean": 0.5206411567227935,
+      "verbatim_8gram_overlap_p95": 0.9729532163742689,
+      "emails_with_>10%_verbatim": 0.95
+    },
+    "fidelity": {
+      "body_words_ratio_median": 1.0,
+      "body_words_ratio_iqr": [
+        1.0,
+        1.018547496318115
+      ],
+      "body_words_spearman": 0.997936758957543,
+      "body_words_ks_stat": 0.03333333333333333,
+      "body_words_ks_p": 0.9999999456410607,
+      "has_greeting_agree": 0.9916666666666667,
+      "has_greeting_orig_rate": 0.08333333333333333,
+      "has_greeting_syn_rate": 0.075,
+      "has_signoff_agree": 1.0,
+      "has_signoff_orig_rate": 0.25,
+      "has_signoff_syn_rate": 0.25,
+      "has_trailer_agree": 1.0,
+      "has_trailer_orig_rate": 0.5,
+      "has_trailer_syn_rate": 0.5,
+      "is_re_agree": 1.0,
+      "is_re_orig_rate": 0.4083333333333333,
+      "is_re_syn_rate": 0.4083333333333333,
+      "is_fw_agree": 1.0,
+      "is_fw_orig_rate": 0.075,
+      "is_fw_syn_rate": 0.075,
+      "all_lower_agree": 1.0,
+      "all_lower_orig_rate": 0.0,
+      "all_lower_syn_rate": 0.0,
+      "has_url_agree": 1.0,
+      "has_url_orig_rate": 0.05,
+      "has_url_syn_rate": 0.05,
+      "mentions_attachment_agree": 1.0,
+      "mentions_attachment_orig_rate": 0.09166666666666666,
+      "mentions_attachment_syn_rate": 0.09166666666666666,
+      "n_paragraphs_spearman": 0.9999999999999998,
+      "n_lines_spearman": 0.9973189133342892,
+      "n_to_exact_agree": 0.8916666666666667,
+      "distinct1_syn": 0.27462082912032354,
+      "distinct2_syn": 0.778403275332651,
+      "distinct1_orig": 0.2616636887035934,
+      "distinct2_orig": 0.7651195499296765
+    },
+    "realism": {
+      "realism_syn_mean": null,
+      "realism_real_mean": null,
+      "judge_detects_synthetic_acc": null,
+      "n_pairs": 0,
+      "top_artifacts": []
+    },
+    "utility": {
+      "category": {
+        "agreement": null,
+        "kappa": null
+      },
+      "intent": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sentiment": {
+        "agreement": null,
+        "kappa": null
+      },
+      "privileged_likely": {
+        "agreement": null,
+        "kappa": null
+      },
+      "action_required": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sensitive": {
+        "agreement": null,
+        "kappa": null
+      }
+    },
+    "meta": {
+      "mean_attempts": 0.0,
+      "trailer_truncated": 0.05,
+      "companies": {
+        "tasman": 23,
+        "lumiere": 18,
+        "halcyon": 16,
+        "agriindia": 13,
+        "cedarpoint": 10,
+        "nordwind": 7,
+        "meridian": 7,
+        "maple": 7,
+        "lakeshore": 5,
+        "kestrel": 5,
+        "brasilog": 4,
+        "solmar": 3,
+        "orion": 2
+      }
+    }
+  },
+  "llm_only": {
+    "privacy": {
+      "n": 120,
+      "any_leak_rate": 0.5583333333333333,
+      "verifier_hard_leak_rate": 0.49166666666666664,
+      "global_leak_rate": 0.09166666666666666,
+      "enron_person_fullname_rate": 0.15,
+      "forced_redaction_rate": 0.0,
+      "placeholder_left_rate": 0.0,
+      "verbatim_8gram_overlap_mean": 0.053351720771995646,
+      "verbatim_8gram_overlap_p95": 0.3079476390836838,
+      "emails_with_>10%_verbatim": 0.11666666666666667
+    },
+    "fidelity": {
+      "body_words_ratio_median": 1.3597701149425288,
+      "body_words_ratio_iqr": [
+        1.0587388801674518,
+        4.181561583577713
+      ],
+      "body_words_spearman": 0.41354370742285124,
+      "body_words_ks_stat": 0.38333333333333336,
+      "body_words_ks_p": 3.0050147873427465e-08,
+      "has_greeting_agree": 0.8166666666666667,
+      "has_greeting_orig_rate": 0.08333333333333333,
+      "has_greeting_syn_rate": 0.25,
+      "has_signoff_agree": 0.625,
+      "has_signoff_orig_rate": 0.25,
+      "has_signoff_syn_rate": 0.4583333333333333,
+      "has_trailer_agree": 0.5,
+      "has_trailer_orig_rate": 0.5,
+      "has_trailer_syn_rate": 0.0,
+      "is_re_agree": 1.0,
+      "is_re_orig_rate": 0.4083333333333333,
+      "is_re_syn_rate": 0.4083333333333333,
+      "is_fw_agree": 0.9916666666666667,
+      "is_fw_orig_rate": 0.075,
+      "is_fw_syn_rate": 0.06666666666666667,
+      "all_lower_agree": 1.0,
+      "all_lower_orig_rate": 0.0,
+      "all_lower_syn_rate": 0.0,
+      "has_url_agree": 0.975,
+      "has_url_orig_rate": 0.05,
+      "has_url_syn_rate": 0.058333333333333334,
+      "mentions_attachment_agree": 0.85,
+      "mentions_attachment_orig_rate": 0.09166666666666666,
+      "mentions_attachment_syn_rate": 0.175,
+      "n_paragraphs_spearman": 0.3973230034793595,
+      "n_lines_spearman": 0.30441769829603854,
+      "n_to_exact_agree": 0.8916666666666667,
+      "distinct1_syn": 0.21625881013877338,
+      "distinct2_syn": 0.722747876600801,
+      "distinct1_orig": 0.2616636887035934,
+      "distinct2_orig": 0.7651195499296765
+    },
+    "realism": {
+      "realism_syn_mean": null,
+      "realism_real_mean": null,
+      "judge_detects_synthetic_acc": null,
+      "n_pairs": 0,
+      "top_artifacts": []
+    },
+    "utility": {
+      "category": {
+        "agreement": null,
+        "kappa": null
+      },
+      "intent": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sentiment": {
+        "agreement": null,
+        "kappa": null
+      },
+      "privileged_likely": {
+        "agreement": null,
+        "kappa": null
+      },
+      "action_required": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sensitive": {
+        "agreement": null,
+        "kappa": null
+      }
+    },
+    "meta": {
+      "mean_attempts": 1.0,
+      "trailer_truncated": 0.05,
+      "companies": {
+        "tasman": 23,
+        "lumiere": 18,
+        "halcyon": 16,
+        "agriindia": 13,
+        "cedarpoint": 10,
+        "nordwind": 7,
+        "meridian": 7,
+        "maple": 7,
+        "lakeshore": 5,
+        "kestrel": 5,
+        "brasilog": 4,
+        "solmar": 3,
+        "orion": 2
+      }
+    }
+  },
+  "hybrid_llama70b": {
+    "privacy": {
+      "n": 120,
+      "any_leak_rate": 0.03333333333333333,
+      "verifier_hard_leak_rate": 0.0,
+      "global_leak_rate": 0.0,
+      "enron_person_fullname_rate": 0.03333333333333333,
+      "forced_redaction_rate": 0.025,
+      "placeholder_left_rate": 0.0,
+      "verbatim_8gram_overlap_mean": 0.2938171981613793,
+      "verbatim_8gram_overlap_p95": 0.5999492127983749,
+      "emails_with_>10%_verbatim": 0.8583333333333333
+    },
+    "fidelity": {
+      "body_words_ratio_median": 1.0925397472482674,
+      "body_words_ratio_iqr": [
+        1.0014367816091954,
+        1.2575022065313328
+      ],
+      "body_words_spearman": 0.9644782361555596,
+      "body_words_ks_stat": 0.125,
+      "body_words_ks_p": 0.3065582476885422,
+      "has_greeting_agree": 0.9916666666666667,
+      "has_greeting_orig_rate": 0.08333333333333333,
+      "has_greeting_syn_rate": 0.075,
+      "has_signoff_agree": 0.925,
+      "has_signoff_orig_rate": 0.25,
+      "has_signoff_syn_rate": 0.275,
+      "has_trailer_agree": 0.9416666666666667,
+      "has_trailer_orig_rate": 0.5,
+      "has_trailer_syn_rate": 0.5583333333333333,
+      "is_re_agree": 1.0,
+      "is_re_orig_rate": 0.4083333333333333,
+      "is_re_syn_rate": 0.4083333333333333,
+      "is_fw_agree": 1.0,
+      "is_fw_orig_rate": 0.075,
+      "is_fw_syn_rate": 0.075,
+      "all_lower_agree": 1.0,
+      "all_lower_orig_rate": 0.0,
+      "all_lower_syn_rate": 0.0,
+      "has_url_agree": 0.9916666666666667,
+      "has_url_orig_rate": 0.05,
+      "has_url_syn_rate": 0.041666666666666664,
+      "mentions_attachment_agree": 1.0,
+      "mentions_attachment_orig_rate": 0.09166666666666666,
+      "mentions_attachment_syn_rate": 0.09166666666666666,
+      "n_paragraphs_spearman": 0.985116041615986,
+      "n_lines_spearman": 0.9011097936572748,
+      "n_to_exact_agree": 0.8916666666666667,
+      "distinct1_syn": 0.25861598617804854,
+      "distinct2_syn": 0.7421163923876068,
+      "distinct1_orig": 0.2616636887035934,
+      "distinct2_orig": 0.7651195499296765
+    },
+    "realism": {
+      "realism_syn_mean": null,
+      "realism_real_mean": null,
+      "judge_detects_synthetic_acc": null,
+      "n_pairs": 0,
+      "top_artifacts": []
+    },
+    "utility": {
+      "category": {
+        "agreement": null,
+        "kappa": null
+      },
+      "intent": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sentiment": {
+        "agreement": null,
+        "kappa": null
+      },
+      "privileged_likely": {
+        "agreement": null,
+        "kappa": null
+      },
+      "action_required": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sensitive": {
+        "agreement": null,
+        "kappa": null
+      }
+    },
+    "meta": {
+      "mean_attempts": 1.2083333333333333,
+      "trailer_truncated": 0.05,
+      "companies": {
+        "tasman": 23,
+        "lumiere": 18,
+        "halcyon": 16,
+        "agriindia": 13,
+        "cedarpoint": 10,
+        "nordwind": 7,
+        "meridian": 7,
+        "maple": 7,
+        "lakeshore": 5,
+        "kestrel": 5,
+        "brasilog": 4,
+        "solmar": 3,
+        "orion": 2
+      }
+    }
+  },
+  "hybrid_qwen235b": {
+    "privacy": {
+      "n": 120,
+      "any_leak_rate": 0.058333333333333334,
+      "verifier_hard_leak_rate": 0.0,
+      "global_leak_rate": 0.0,
+      "enron_person_fullname_rate": 0.058333333333333334,
+      "forced_redaction_rate": 0.03333333333333333,
+      "placeholder_left_rate": 0.041666666666666664,
+      "verbatim_8gram_overlap_mean": 0.25345367556240794,
+      "verbatim_8gram_overlap_p95": 0.5877689398046857,
+      "emails_with_>10%_verbatim": 0.6916666666666667
+    },
+    "fidelity": {
+      "body_words_ratio_median": 1.0,
+      "body_words_ratio_iqr": [
+        0.9705459770114943,
+        1.0565181518151816
+      ],
+      "body_words_spearman": 0.9785653255086022,
+      "body_words_ks_stat": 0.041666666666666664,
+      "body_words_ks_p": 0.9999542705402878,
+      "has_greeting_agree": 0.9916666666666667,
+      "has_greeting_orig_rate": 0.08333333333333333,
+      "has_greeting_syn_rate": 0.075,
+      "has_signoff_agree": 0.9666666666666667,
+      "has_signoff_orig_rate": 0.25,
+      "has_signoff_syn_rate": 0.25,
+      "has_trailer_agree": 0.9833333333333333,
+      "has_trailer_orig_rate": 0.5,
+      "has_trailer_syn_rate": 0.5166666666666667,
+      "is_re_agree": 1.0,
+      "is_re_orig_rate": 0.4083333333333333,
+      "is_re_syn_rate": 0.4083333333333333,
+      "is_fw_agree": 1.0,
+      "is_fw_orig_rate": 0.075,
+      "is_fw_syn_rate": 0.075,
+      "all_lower_agree": 1.0,
+      "all_lower_orig_rate": 0.0,
+      "all_lower_syn_rate": 0.0,
+      "has_url_agree": 0.9916666666666667,
+      "has_url_orig_rate": 0.05,
+      "has_url_syn_rate": 0.041666666666666664,
+      "mentions_attachment_agree": 0.9833333333333333,
+      "mentions_attachment_orig_rate": 0.09166666666666666,
+      "mentions_attachment_syn_rate": 0.075,
+      "n_paragraphs_spearman": 0.9731334724663163,
+      "n_lines_spearman": 0.9536104673576173,
+      "n_to_exact_agree": 0.8916666666666667,
+      "distinct1_syn": 0.31968348170128585,
+      "distinct2_syn": 0.8112112112112112,
+      "distinct1_orig": 0.2616636887035934,
+      "distinct2_orig": 0.7651195499296765
+    },
+    "realism": {
+      "realism_syn_mean": null,
+      "realism_real_mean": null,
+      "judge_detects_synthetic_acc": null,
+      "n_pairs": 0,
+      "top_artifacts": []
+    },
+    "utility": {
+      "category": {
+        "agreement": null,
+        "kappa": null
+      },
+      "intent": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sentiment": {
+        "agreement": null,
+        "kappa": null
+      },
+      "privileged_likely": {
+        "agreement": null,
+        "kappa": null
+      },
+      "action_required": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sensitive": {
+        "agreement": null,
+        "kappa": null
+      }
+    },
+    "meta": {
+      "mean_attempts": 1.3916666666666666,
+      "trailer_truncated": 0.05,
+      "companies": {
+        "tasman": 23,
+        "lumiere": 18,
+        "halcyon": 16,
+        "agriindia": 13,
+        "cedarpoint": 10,
+        "nordwind": 7,
+        "meridian": 7,
+        "maple": 7,
+        "lakeshore": 5,
+        "kestrel": 5,
+        "brasilog": 4,
+        "solmar": 3,
+        "orion": 2
+      }
+    }
+  },
+  "hybrid_gemini_flash": {
+    "privacy": {
+      "n": 120,
+      "any_leak_rate": 0.058333333333333334,
+      "verifier_hard_leak_rate": 0.0,
+      "global_leak_rate": 0.0,
+      "enron_person_fullname_rate": 0.058333333333333334,
+      "forced_redaction_rate": 0.05,
+      "placeholder_left_rate": 0.0,
+      "verbatim_8gram_overlap_mean": 0.296492696510225,
+      "verbatim_8gram_overlap_p95": 0.6128014842300556,
+      "emails_with_>10%_verbatim": 0.825
+    },
+    "fidelity": {
+      "body_words_ratio_median": 1.0306517909571344,
+      "body_words_ratio_iqr": [
+        1.0,
+        1.0872762148337596
+      ],
+      "body_words_spearman": 0.9941597556540921,
+      "body_words_ks_stat": 0.05,
+      "body_words_ks_p": 0.9984223762411535,
+      "has_greeting_agree": 0.9916666666666667,
+      "has_greeting_orig_rate": 0.08333333333333333,
+      "has_greeting_syn_rate": 0.075,
+      "has_signoff_agree": 0.9583333333333334,
+      "has_signoff_orig_rate": 0.25,
+      "has_signoff_syn_rate": 0.20833333333333334,
+      "has_trailer_agree": 1.0,
+      "has_trailer_orig_rate": 0.5,
+      "has_trailer_syn_rate": 0.5,
+      "is_re_agree": 1.0,
+      "is_re_orig_rate": 0.4083333333333333,
+      "is_re_syn_rate": 0.4083333333333333,
+      "is_fw_agree": 0.9916666666666667,
+      "is_fw_orig_rate": 0.075,
+      "is_fw_syn_rate": 0.08333333333333333,
+      "all_lower_agree": 1.0,
+      "all_lower_orig_rate": 0.0,
+      "all_lower_syn_rate": 0.0,
+      "has_url_agree": 0.9916666666666667,
+      "has_url_orig_rate": 0.05,
+      "has_url_syn_rate": 0.058333333333333334,
+      "mentions_attachment_agree": 0.9916666666666667,
+      "mentions_attachment_orig_rate": 0.09166666666666666,
+      "mentions_attachment_syn_rate": 0.08333333333333333,
+      "n_paragraphs_spearman": 0.9902870104133259,
+      "n_lines_spearman": 0.9791461209494711,
+      "n_to_exact_agree": 0.8916666666666667,
+      "distinct1_syn": 0.2931947251901049,
+      "distinct2_syn": 0.786542019670854,
+      "distinct1_orig": 0.2616636887035934,
+      "distinct2_orig": 0.7651195499296765
+    },
+    "realism": {
+      "realism_syn_mean": null,
+      "realism_real_mean": null,
+      "judge_detects_synthetic_acc": null,
+      "n_pairs": 0,
+      "top_artifacts": []
+    },
+    "utility": {
+      "category": {
+        "agreement": null,
+        "kappa": null
+      },
+      "intent": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sentiment": {
+        "agreement": null,
+        "kappa": null
+      },
+      "privileged_likely": {
+        "agreement": null,
+        "kappa": null
+      },
+      "action_required": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sensitive": {
+        "agreement": null,
+        "kappa": null
+      }
+    },
+    "meta": {
+      "mean_attempts": 1.2416666666666667,
+      "trailer_truncated": 0.05,
+      "companies": {
+        "tasman": 23,
+        "lumiere": 18,
+        "halcyon": 16,
+        "agriindia": 13,
+        "cedarpoint": 10,
+        "nordwind": 7,
+        "meridian": 7,
+        "maple": 7,
+        "lakeshore": 5,
+        "kestrel": 5,
+        "brasilog": 4,
+        "solmar": 3,
+        "orion": 2
+      }
+    }
+  },
+  "hybrid_haiku45": {
+    "privacy": {
+      "n": 120,
+      "any_leak_rate": 0.058333333333333334,
+      "verifier_hard_leak_rate": 0.0,
+      "global_leak_rate": 0.0,
+      "enron_person_fullname_rate": 0.058333333333333334,
+      "forced_redaction_rate": 0.016666666666666666,
+      "placeholder_left_rate": 0.0,
+      "verbatim_8gram_overlap_mean": 0.28169284374223397,
+      "verbatim_8gram_overlap_p95": 0.6255681818181817,
+      "emails_with_>10%_verbatim": 0.7916666666666666
+    },
+    "fidelity": {
+      "body_words_ratio_median": 1.0177405396900323,
+      "body_words_ratio_iqr": [
+        1.0,
+        1.072089947089947
+      ],
+      "body_words_spearman": 0.9929475473220304,
+      "body_words_ks_stat": 0.05,
+      "body_words_ks_p": 0.9984223762411535,
+      "has_greeting_agree": 0.9916666666666667,
+      "has_greeting_orig_rate": 0.08333333333333333,
+      "has_greeting_syn_rate": 0.075,
+      "has_signoff_agree": 0.9666666666666667,
+      "has_signoff_orig_rate": 0.25,
+      "has_signoff_syn_rate": 0.23333333333333334,
+      "has_trailer_agree": 1.0,
+      "has_trailer_orig_rate": 0.5,
+      "has_trailer_syn_rate": 0.5,
+      "is_re_agree": 1.0,
+      "is_re_orig_rate": 0.4083333333333333,
+      "is_re_syn_rate": 0.4083333333333333,
+      "is_fw_agree": 1.0,
+      "is_fw_orig_rate": 0.075,
+      "is_fw_syn_rate": 0.075,
+      "all_lower_agree": 1.0,
+      "all_lower_orig_rate": 0.0,
+      "all_lower_syn_rate": 0.0,
+      "has_url_agree": 1.0,
+      "has_url_orig_rate": 0.05,
+      "has_url_syn_rate": 0.05,
+      "mentions_attachment_agree": 1.0,
+      "mentions_attachment_orig_rate": 0.09166666666666666,
+      "mentions_attachment_syn_rate": 0.09166666666666666,
+      "n_paragraphs_spearman": 0.9623911450722528,
+      "n_lines_spearman": 0.9653445043284502,
+      "n_to_exact_agree": 0.8916666666666667,
+      "distinct1_syn": 0.29784072900158476,
+      "distinct2_syn": 0.7858861267040899,
+      "distinct1_orig": 0.2616636887035934,
+      "distinct2_orig": 0.7651195499296765
+    },
+    "realism": {
+      "realism_syn_mean": null,
+      "realism_real_mean": null,
+      "judge_detects_synthetic_acc": null,
+      "n_pairs": 0,
+      "top_artifacts": []
+    },
+    "utility": {
+      "category": {
+        "agreement": null,
+        "kappa": null
+      },
+      "intent": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sentiment": {
+        "agreement": null,
+        "kappa": null
+      },
+      "privileged_likely": {
+        "agreement": null,
+        "kappa": null
+      },
+      "action_required": {
+        "agreement": null,
+        "kappa": null
+      },
+      "sensitive": {
+        "agreement": null,
+        "kappa": null
+      }
+    },
+    "meta": {
+      "mean_attempts": 1.175,
+      "trailer_truncated": 0.05,
+      "companies": {
+        "tasman": 23,
+        "lumiere": 18,
+        "halcyon": 16,
+        "agriindia": 13,
+        "cedarpoint": 10,
+        "nordwind": 7,
+        "meridian": 7,
+        "maple": 7,
+        "lakeshore": 5,
+        "kestrel": 5,
+        "brasilog": 4,
+        "solmar": 3,
+        "orion": 2
+      }
+    }
+  }
+}

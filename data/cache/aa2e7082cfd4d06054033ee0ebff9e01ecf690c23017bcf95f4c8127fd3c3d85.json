@@ -1,0 +1,1 @@
+{"text": "```json\n{\n  \"realism\": 4,\n  \"artifacts\": [\n    \"Sign-off 'D' is unusually terse for a business email, though not impossible for an informal internal communication\",\n    \"No greeting (e.g., 'Hi all' or 'Team') is slightly informal but plausible for a quick internal message\"\n  ]\n}\n```", "cost": 0.000902, "model": "anthropic/claude-haiku-4.5"}

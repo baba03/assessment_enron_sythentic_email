@@ -1,0 +1,1 @@
+{"text": "```json\n{\n  \"real\": \"B\",\n  \"confidence\": 0.85,\n  \"reason\": \"Email B has complete, natural formatting with proper structure and closure, while Email A is truncated mid-word ('ausf\u00fc') suggesting synthetic generation, and contains a date inconsistency (2024 vs 2025 header).\"\n}\n```", "cost": 0.004107, "model": "anthropic/claude-haiku-4.5"}

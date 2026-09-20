@@ -1,0 +1,1 @@
+{"text": "```json\n{\n  \"category\": \"newsletter_automated\",\n  \"intent\": \"provide_information\",\n  \"privileged_likely\": false,\n  \"sentiment\": \"neutral\",\n  \"action_required\": false,\n  \"sensitive\": false\n}\n```", "cost": 0.000982, "model": "anthropic/claude-haiku-4.5"}

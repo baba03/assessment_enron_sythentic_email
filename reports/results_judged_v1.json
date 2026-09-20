@@ -1,0 +1,341 @@
+{
+  "hybrid": {
+    "privacy": {
+      "n": 120,
+      "any_leak_rate": 0.20833333333333334,
+      "verifier_hard_leak_rate": 0.0,
+      "global_leak_rate": 0.0,
+      "enron_person_fullname_rate": 0.20833333333333334,
+      "forced_redaction_rate": 0.008333333333333333,
+      "placeholder_left_rate": 0.0,
+      "verbatim_8gram_overlap_mean": 0.10444130601898861,
+      "verbatim_8gram_overlap_p95": 0.415527950310559,
+      "emails_with_>10%_verbatim": 0.3416666666666667
+    },
+    "fidelity": {
+      "body_words_ratio_median": 1.0,
+      "body_words_ratio_iqr": [
+        0.9257177033492823,
+        1.0450745366639806
+      ],
+      "body_words_spearman": 0.9924105199326141,
+      "body_words_ks_stat": 0.041666666666666664,
+      "body_words_ks_p": 0.9999542705402878,
+      "has_greeting_agree": 0.9833333333333333,
+      "has_greeting_orig_rate": 0.08333333333333333,
+      "has_greeting_syn_rate": 0.06666666666666667,
+      "has_signoff_agree": 0.975,
+      "has_signoff_orig_rate": 0.25,
+      "has_signoff_syn_rate": 0.24166666666666667,
+      "has_trailer_agree": 1.0,
+      "has_trailer_orig_rate": 0.5,
+      "has_trailer_syn_rate": 0.5,
+      "is_re_agree": 1.0,
+      "is_re_orig_rate": 0.4083333333333333,
+      "is_re_syn_rate": 0.4083333333333333,
+      "is_fw_agree": 1.0,
+      "is_fw_orig_rate": 0.075,
+      "is_fw_syn_rate": 0.075,
+      "all_lower_agree": 1.0,
+      "all_lower_orig_rate": 0.0,
+      "all_lower_syn_rate": 0.0,
+      "has_url_agree": 1.0,
+      "has_url_orig_rate": 0.05,
+      "has_url_syn_rate": 0.05,
+      "mentions_attachment_agree": 1.0,
+      "mentions_attachment_orig_rate": 0.09166666666666666,
+      "mentions_attachment_syn_rate": 0.09166666666666666,
+      "n_paragraphs_spearman": 0.9555139658359897,
+      "n_lines_spearman": 0.9812665938384832,
+      "n_to_exact_agree": 0.8916666666666667,
+      "distinct1_syn": 0.28911875063381,
+      "distinct2_syn": 0.8008418026896622,
+      "distinct1_orig": 0.2616636887035934,
+      "distinct2_orig": 0.7651195499296765
+    },
+    "realism": {
+      "realism_syn_mean": 2.7333333333333334,
+      "realism_real_mean": 4.033333333333333,
+      "judge_detects_synthetic_acc": 0.6333333333333333,
+      "n_pairs": 120,
+      "top_artifacts": [
+        "sender name mismatch: email from 'adam costa' but signature block shows 'sophie langford'  (1)",
+        "threading confusion: reply appears to be from adam costa responding to ashley vance, but t (1)",
+        "tonal inconsistency: opening discusses weather and social plans ('head out', 'catch up abo (1)",
+        "subject line includes file extension (.doc) which is unusual for professional e-mail subje (1)",
+        "placeholder-style attachment notation '<<clinique saint-augustin.doc>>' is generic/simplif (1)"
+      ]
+    },
+    "utility": {
+      "category": {
+        "agreement": 0.7333333333333333,
+        "kappa": 0.691541489276247
+      },
+      "intent": {
+        "agreement": 0.8666666666666667,
+        "kappa": 0.7982557528632973
+      },
+      "sentiment": {
+        "agreement": 0.875,
+        "kappa": 0.7250229147571036
+      },
+      "privileged_likely": {
+        "agreement": 0.9583333333333334,
+        "kappa": 0.7142857142857146
+      },
+      "action_required": {
+        "agreement": 0.95,
+        "kappa": 0.8923444976076554
+      },
+      "sensitive": {
+        "agreement": 0.8916666666666667,
+        "kappa": 0.7800338409475467
+      }
+    },
+    "meta": {
+      "mean_attempts": 1.1416666666666666,
+      "trailer_truncated": 0.05,
+      "companies": {
+        "tasman": 23,
+        "lumiere": 18,
+        "halcyon": 16,
+        "agriindia": 13,
+        "cedarpoint": 10,
+        "nordwind": 7,
+        "meridian": 7,
+        "maple": 7,
+        "lakeshore": 5,
+        "kestrel": 5,
+        "brasilog": 4,
+        "solmar": 3,
+        "orion": 2
+      }
+    }
+  },
+  "rule": {
+    "privacy": {
+      "n": 120,
+      "any_leak_rate": 0.2833333333333333,
+      "verifier_hard_leak_rate": 0.008333333333333333,
+      "global_leak_rate": 0.125,
+      "enron_person_fullname_rate": 0.175,
+      "forced_redaction_rate": 0.16666666666666666,
+      "placeholder_left_rate": 0.0,
+      "verbatim_8gram_overlap_mean": 0.5318715474801035,
+      "verbatim_8gram_overlap_p95": 0.9729532163742689,
+      "emails_with_>10%_verbatim": 0.95
+    },
+    "fidelity": {
+      "body_words_ratio_median": 1.0,
+      "body_words_ratio_iqr": [
+        1.0,
+        1.0206452646760322
+      ],
+      "body_words_spearman": 0.9979333245882211,
+      "body_words_ks_stat": 0.03333333333333333,
+      "body_words_ks_p": 0.9999999456410607,
+      "has_greeting_agree": 0.9916666666666667,
+      "has_greeting_orig_rate": 0.08333333333333333,
+      "has_greeting_syn_rate": 0.075,
+      "has_signoff_agree": 1.0,
+      "has_signoff_orig_rate": 0.25,
+      "has_signoff_syn_rate": 0.25,
+      "has_trailer_agree": 1.0,
+      "has_trailer_orig_rate": 0.5,
+      "has_trailer_syn_rate": 0.5,
+      "is_re_agree": 1.0,
+      "is_re_orig_rate": 0.4083333333333333,
+      "is_re_syn_rate": 0.4083333333333333,
+      "is_fw_agree": 1.0,
+      "is_fw_orig_rate": 0.075,
+      "is_fw_syn_rate": 0.075,
+      "all_lower_agree": 1.0,
+      "all_lower_orig_rate": 0.0,
+      "all_lower_syn_rate": 0.0,
+      "has_url_agree": 1.0,
+      "has_url_orig_rate": 0.05,
+      "has_url_syn_rate": 0.05,
+      "mentions_attachment_agree": 1.0,
+      "mentions_attachment_orig_rate": 0.09166666666666666,
+      "mentions_attachment_syn_rate": 0.09166666666666666,
+      "n_paragraphs_spearman": 0.9999999999999998,
+      "n_lines_spearman": 0.9999999999999998,
+      "n_to_exact_agree": 0.8916666666666667,
+      "distinct1_syn": 0.27206323794276566,
+      "distinct2_syn": 0.7756734859226251,
+      "distinct1_orig": 0.2616636887035934,
+      "distinct2_orig": 0.7651195499296765
+    },
+    "realism": {
+      "realism_syn_mean": 2.5,
+      "realism_real_mean": 4.033333333333333,
+      "judge_detects_synthetic_acc": 0.6916666666666667,
+      "n_pairs": 120,
+      "top_artifacts": [
+        "empty subject line - unusual for business email but not impossible (2)",
+        "inconsistent sender identity: header shows 'adam.costa@tasmanridge.com.au' but signature b (1)",
+        "non-sequitur content: adam's reply about 'going' and 'weather' and 'iaoc' doesn't logicall (1)",
+        "unusual phrasing: 'i need to gush about the iaoc' is colloquial but oddly placed as a stan (1)",
+        "subject line contains filename 'lecomte maurice sarl.doc' rather than descriptive subject  (1)"
+      ]
+    },
+    "utility": {
+      "category": {
+        "agreement": 0.85,
+        "kappa": 0.8245756517501827
+      },
+      "intent": {
+        "agreement": 0.9,
+        "kappa": 0.8486441034265295
+      },
+      "sentiment": {
+        "agreement": 0.9416666666666667,
+        "kappa": 0.8754448398576512
+      },
+      "privileged_likely": {
+        "agreement": 0.9666666666666667,
+        "kappa": 0.8000000000000002
+      },
+      "action_required": {
+        "agreement": 0.95,
+        "kappa": 0.8953488372093023
+      },
+      "sensitive": {
+        "agreement": 0.9,
+        "kappa": 0.7974683544303799
+      }
+    },
+    "meta": {
+      "mean_attempts": 0.0,
+      "trailer_truncated": 0.05,
+      "companies": {
+        "tasman": 23,
+        "lumiere": 18,
+        "halcyon": 16,
+        "agriindia": 13,
+        "cedarpoint": 10,
+        "nordwind": 7,
+        "meridian": 7,
+        "maple": 7,
+        "lakeshore": 5,
+        "kestrel": 5,
+        "brasilog": 4,
+        "solmar": 3,
+        "orion": 2
+      }
+    }
+  },
+  "llm_only": {
+    "privacy": {
+      "n": 120,
+      "any_leak_rate": 0.6083333333333333,
+      "verifier_hard_leak_rate": 0.49166666666666664,
+      "global_leak_rate": 0.09166666666666666,
+      "enron_person_fullname_rate": 0.275,
+      "forced_redaction_rate": 0.0,
+      "placeholder_left_rate": 0.0,
+      "verbatim_8gram_overlap_mean": 0.053351720771995646,
+      "verbatim_8gram_overlap_p95": 0.3079476390836838,
+      "emails_with_>10%_verbatim": 0.11666666666666667
+    },
+    "fidelity": {
+      "body_words_ratio_median": 1.3597701149425288,
+      "body_words_ratio_iqr": [
+        1.0587388801674518,
+        4.181561583577713
+      ],
+      "body_words_spearman": 0.41354370742285124,
+      "body_words_ks_stat": 0.38333333333333336,
+      "body_words_ks_p": 3.0050147873427465e-08,
+      "has_greeting_agree": 0.8166666666666667,
+      "has_greeting_orig_rate": 0.08333333333333333,
+      "has_greeting_syn_rate": 0.25,
+      "has_signoff_agree": 0.625,
+      "has_signoff_orig_rate": 0.25,
+      "has_signoff_syn_rate": 0.4583333333333333,
+      "has_trailer_agree": 0.5,
+      "has_trailer_orig_rate": 0.5,
+      "has_trailer_syn_rate": 0.0,
+      "is_re_agree": 1.0,
+      "is_re_orig_rate": 0.4083333333333333,
+      "is_re_syn_rate": 0.4083333333333333,
+      "is_fw_agree": 0.9916666666666667,
+      "is_fw_orig_rate": 0.075,
+      "is_fw_syn_rate": 0.06666666666666667,
+      "all_lower_agree": 1.0,
+      "all_lower_orig_rate": 0.0,
+      "all_lower_syn_rate": 0.0,
+      "has_url_agree": 0.975,
+      "has_url_orig_rate": 0.05,
+      "has_url_syn_rate": 0.058333333333333334,
+      "mentions_attachment_agree": 0.85,
+      "mentions_attachment_orig_rate": 0.09166666666666666,
+      "mentions_attachment_syn_rate": 0.175,
+      "n_paragraphs_spearman": 0.3973230034793595,
+      "n_lines_spearman": 0.30441769829603854,
+      "n_to_exact_agree": 0.8916666666666667,
+      "distinct1_syn": 0.21625881013877338,
+      "distinct2_syn": 0.722747876600801,
+      "distinct1_orig": 0.2616636887035934,
+      "distinct2_orig": 0.7651195499296765
+    },
+    "realism": {
+      "realism_syn_mean": 1.85,
+      "realism_real_mean": 4.033333333333333,
+      "judge_detects_synthetic_acc": 0.8333333333333334,
+      "n_pairs": 120,
+      "top_artifacts": [
+        "sender name mismatch: from header shows 'adam costa' but signature is 'alex'; recipient is (1)",
+        "inconsistent company naming: 'tasmanridge.com.au' domain vs 'tasman ridge resources ltd' i (1)",
+        "chronological inconsistency: current email dated 06:15 on 03 jan 2024, but quoted email ti (1)",
+        "sign-off uses company name 'lumi\u00e8re sant\u00e9 sas' instead of personal name/title, which is un (1)",
+        "nickname 'joe' used in greeting but formal 'joseph mend\u00e8s' in header suggests either overl (1)"
+      ]
+    },
+    "utility": {
+      "category": {
+        "agreement": 0.825,
+        "kappa": 0.7963307201163824
+      },
+      "intent": {
+        "agreement": 0.8666666666666667,
+        "kappa": 0.8010981042163059
+      },
+      "sentiment": {
+        "agreement": 0.875,
+        "kappa": 0.7330960854092526
+      },
+      "privileged_likely": {
+        "agreement": 0.9583333333333334,
+        "kappa": 0.7600000000000002
+      },
+      "action_required": {
+        "agreement": 0.8916666666666667,
+        "kappa": 0.7700471698113209
+      },
+      "sensitive": {
+        "agreement": 0.8666666666666667,
+        "kappa": 0.7326649958228907
+      }
+    },
+    "meta": {
+      "mean_attempts": 1.0,
+      "trailer_truncated": 0.05,
+      "companies": {
+        "tasman": 23,
+        "lumiere": 18,
+        "halcyon": 16,
+        "agriindia": 13,
+        "cedarpoint": 10,
+        "nordwind": 7,
+        "meridian": 7,
+        "maple": 7,
+        "lakeshore": 5,
+        "kestrel": 5,
+        "brasilog": 4,
+        "solmar": 3,
+        "orion": 2
+      }
+    }
+  }
+}

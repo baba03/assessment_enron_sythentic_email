@@ -1,0 +1,1 @@
+{"text": "```json\n{\n  \"realism\": 4,\n  \"artifacts\": [\n    \"Sign-off mismatch: sender is 'Richard Medina' but signs as 'T' (unexplained initial)\",\n    \"Unusually terse body with minimal context or explanation for transaction list\",\n    \"No greeting line (jumps directly to transaction data)\"\n  ]\n}\n```", "cost": 0.00091, "model": "anthropic/claude-haiku-4.5"}

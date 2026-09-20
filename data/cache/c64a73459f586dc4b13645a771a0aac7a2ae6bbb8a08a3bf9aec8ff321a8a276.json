@@ -1,0 +1,1 @@
+{"text": "```json\n{\n  \"realism\": 4,\n  \"artifacts\": [\n    \"Recipient email address partially obscured with dots (p..hewitt@enron.com) - unusual formatting for internal Enron email\",\n    \"Extremely terse body with no greeting, context, or sign-off - atypical even for brief internal emails\"\n  ]\n}\n```", "cost": 0.000811, "model": "anthropic/claude-haiku-4.5"}

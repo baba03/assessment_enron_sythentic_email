@@ -1,0 +1,1 @@
+{"text": "```json\n{\n  \"category\": \"finance_accounting\",\n  \"intent\": \"request_action\",\n  \"privileged_likely\": false,\n  \"sentiment\": \"neutral\",\n  \"action_required\": true,\n  \"sensitive\": true\n}\n```", "cost": 0.001247, "model": "anthropic/claude-haiku-4.5"}

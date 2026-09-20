@@ -1,0 +1,1 @@
+{"text": "```json\n{\n  \"realism\": 4,\n  \"artifacts\": [\n    \"Timestamp inconsistency: Original message sent at 10:12 AM but reply timestamp shows 08:27 AM (earlier same day)\",\n    \"Formal name format inconsistency: Header shows 'Charles Obrien' but quoted message addresses him as 'Obrien, Charles'\"\n  ]\n}\n```", "cost": 0.001013, "model": "anthropic/claude-haiku-4.5"}

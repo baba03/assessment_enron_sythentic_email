@@ -1,0 +1,1 @@
+{"text": "```json\n{\n  \"realism\": 4,\n  \"artifacts\": [\n    \"Slightly informal abbreviation style ('tonnes/day', '@', '....') mixed with formal business context\",\n    \"Self-referential 'update...me' phrasing is natural but the request structure is somewhat terse for a formal contract notification\"\n  ]\n}\n```", "cost": 0.000876, "model": "anthropic/claude-haiku-4.5"}

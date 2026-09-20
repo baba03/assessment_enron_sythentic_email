@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enron-synth"
+version = "0.2.1"
+description = "Synthetic e-mail generation from the Enron corpus (de-identification + LLM domain transfer)"
+requires-python = ">=3.10"
+dependencies = ["pandas", "numpy", "scipy", "matplotlib", "pyarrow", "tqdm", "openai", "python-dotenv", "faker",
+                "gender-guesser", "wordfreq", "spacy"]
+
+[project.scripts]
+enron-synth = "enron_synth.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
